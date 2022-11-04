@@ -64,14 +64,19 @@ body{
     width: 65%;
 }
 .mostrar table{
+    border-collapse: collapse;
     border-top: 1px solid black;
-    padding-top: 20px;
 }
 .mostrar table th{
-    width: 500px;
-    padding-bottom: 20px;
+    width: 200px;
+    padding-top: 5px;
+    padding-bottom: 5px;
     font-weight: bold;
     font-size: 30px;
+}
+.mostrar td{
+    padding-top: 5px;
+    padding-bottom: 5px;
 }
 .tabla{
     overflow-y: scroll;
