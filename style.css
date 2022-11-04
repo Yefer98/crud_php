@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 17px;
+    font-family: 'Oswald', sans-serif;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.title{
+    margin-top: 3%;
+    margin-bottom: 20px;
+    padding: 10px;
+    padding-left: 40px;
+    font-size: 30px;
+    width: 80%;
+    background-color: rgb(50, 50, 50);
+    color: white;
+    text-shadow: 5px 5px 5px black;
+}
+.contenedor{
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-evenly;
+}
+.form{
+    width: 30%;
+    border: 1px solid black;
+    padding: 20px;
+}
+.form form{
+    gap: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.form input{
+    width: 100%;
+    padding: 10px;
+    font-size: 20px;
+    outline: none;
+}
+.button{
+    text-transform: uppercase;
+    cursor: pointer;
+    background-color: rgb(127, 0, 0);
+    color: white;
+    font-weight: bold;
+    transition: ease-in-out .5s;
+}
+.button:hover{
+    background-color: rgb(255, 44, 44);
+    transition: ease-in-out .5s;
+}
+.mostrar{
+    width: 65%;
+}
+.mostrar table{
+    border-top: 1px solid black;
+    padding-top: 20px;
+}
+.mostrar table th{
+    width: 500px;
+    padding-bottom: 20px;
+    font-weight: bold;
+    font-size: 30px;
+}
+.tabla{
+    overflow-y: scroll;
+    height: 77vh;
+    text-align: center;
+}
+.mostrar tbody tr{
+    border-top: 1px solid black;
+}
+.mostrar tbody tr:hover{
+    background-color: rgba(128, 128, 128, 0.371);
+}
+.img{
+    cursor: pointer;
+    margin-left: 10px;
+}
+.img:hover{
+    filter: brightness(80%);
+}
+
+
